@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.php
+
+# Custom Headers
+Header add X-got-a-duck "YES"
+Header add X-got-a-goose "YES"

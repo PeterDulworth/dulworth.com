@@ -1,0 +1,6 @@
+<?php
+    echo
+    '<div class="container">
+        <p class="text-muted">Securities offered through Legacy Asset Securities, Inc., Member <a href="http://www.finra.org/" target="blank">FINRA</a>/<a href="http://www.sipc.org/" target="blank">SIPC</a>. For an explanatory brochure please visit <a href="http://www.finra.org/" target="blank">www.finra.org</a> and/or <a href="http://www.sipc.org/" target="blank">www.sipc.org</a>. This site is published for residents of the United States only. Registered Representatives of Legacy Asset Securities, Inc. may only conduct business with residents of the states and jurisdictions in which they are properly registered. Therefore, a response to a request for information may be delayed. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed. For additional information, please contact the Legacy Asset Securities, Inc. Compliance Department at 713-355-7171. <br> Copyright &copy; 2015 Dulworth &amp; Company, Inc. All Rights Reserved</p>
+    </div>';
+?>

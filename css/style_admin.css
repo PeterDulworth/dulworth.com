@@ -1,0 +1,210 @@
+body
+{
+	background: #f4f4f4 url(../images/admin/bg.jpg) repeat-x;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.clear
+{
+	clear: both;
+}
+
+a:link, a:visited
+{
+	color: #27333A;
+}
+
+a:hover, a:active
+{
+	color: #B24203;
+}
+
+#header
+{
+	font-size:  184.6%;
+	font-weight: bold;
+	line-height: 35px;
+	padding: 15px 0;
+}
+
+#usernav
+{
+	font-size: 76.9%;
+	padding: 25px 0;
+	text-align: right;
+}
+
+ul#navigation
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul#navigation li
+{
+	display: block;
+	float: left;
+	font-size: 123.1%;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#navigation li a
+{
+	color: #ffffff;
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+ul#navigation li a:hover
+{
+	/* background: #e8e8e8; */
+	color: #B24203;
+}
+
+#content
+{
+	background: #ffffff;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 15px;
+	width: 910px;
+}
+
+#content h1
+{
+	border-bottom: 1px solid #c4c4c4;
+}
+
+#footer
+{
+	font-size: 76.9%;
+	padding: 15px;
+	width: 910px;
+}
+
+/*  System Message  */
+p.success {
+	position: relative;
+	display: block;
+	background: #e5f993 url(../images/admin/icon_success.png) no-repeat 10px 11px;
+	border: 1px solid #9bac55;
+	padding: 10px 10px 10px 40px;
+	color: #688006;
+	font-size: 13px;
+}
+
+p.error
+{
+	position: relative;
+	display: block;
+	background: #f6b9b9 url(../images/admin/icon_error.png) no-repeat 10px 11px;
+	border: 1px solid #e18484;
+	padding: 10px 10px 10px 40px;
+	color: #c32727;
+	font-size: 13px;
+}
+
+p.error span, p.success span
+{ 
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	padding: 5px;
+	cursor: pointer;
+
+}
+
+/*  Table Format */
+table
+{
+	border-left: 1px solid #c4c4c4;
+	border-top: 1px solid #c4c4c4;
+}
+
+table tr
+{
+	background: #ffffff;
+}
+
+table tr.alt
+{
+	background: #f9f9f9;
+}
+
+table tr:hover
+{
+	background: #fffecc;
+}
+
+table th
+{
+	background: #e8e8e8;
+	border-bottom: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+	font-weight: bold;
+	font-size: 123.1%;
+	padding: 5px;
+}
+
+table td
+{
+	border-bottom: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+	padding: 5px;
+}
+
+table tr td.tmenu
+{
+	background: #e8e8e8;
+	font-weight: bold;
+}
+
+/*  Form Format */
+form
+{
+	background: #f9f9f9;
+	border: 1px solid #c4c4c4;
+	display: block;
+	padding: 10px;
+}
+
+form label
+{
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+
+form input, form textarea, form select
+{
+	border: 1px solid #c4c4c4;
+	display: block;
+	float: left;
+	margin: 5px 0 20px 0;
+	padding: 4px 2px;
+}
+
+form input
+{
+	width: 400px;
+}
+
+form select
+{
+	width: 400px;
+}
+
+form textarea
+{
+	height: 250px;
+	width: 800px;
+}

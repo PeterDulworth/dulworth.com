@@ -1,0 +1,79 @@
+form input#stop
+{
+	display: none;
+	visibility: hidden;
+}
+
+form#contact
+{
+	margin: 25px 0;
+	width: 250px;
+}
+
+#contact label, #contact input, #contact textarea
+{
+	display: block;
+}
+
+#contact input, #contact textarea
+{
+	border: 1px solid #707070;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 250px;
+}
+
+#contact input:focus, #contact textarea:focus
+{
+	border: 1px solid #0099ff;
+}
+
+#contact input#hidden
+{
+	display: none;
+	visibility: hidden;
+}
+
+#contact input#submit
+{
+	margin: 0 auto;
+	width: 100px;
+}
+
+#contact fieldset fieldset.group
+{
+	margin: 0;
+	padding: 0;
+}
+
+#contact fieldset fieldset.group div
+{
+	float: left;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#contact fieldset fieldset.group div:first-child
+{
+	padding-left: 0;
+}
+
+#contact fieldset fieldset.group div #first_name, #contact fieldset fieldset.group div #last_name
+{
+	width: 114px;
+}
+
+#contact fieldset fieldset.group div #city
+{
+	width: 100px;
+}
+
+#contact fieldset fieldset.group div #state
+{
+	width: 30px;
+}
+
+#contact fieldset fieldset.group div #zip_code
+{
+	width: 76px;
+}

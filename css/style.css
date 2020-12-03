@@ -1,0 +1,121 @@
+/* RESET CSS 
+----------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;color: black;background: white;font-family:Georgia, "Times New Roman", Times, serif;
+} 
+/*ol, ul {
+	list-style: none;
+}*/
+
+strong, b {font-weight:bold;}
+
+table {
+	border-collapse: separate;border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;font-weight: normal;}
+
+/* HOME PAGE CSS 
+--------------------------------------------------------------------------------------*/
+a {text-decoration:none;}
+.clear{clear:both;}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#B3B3B3;
+	font-size:13px;
+	background:url(../images/container.jpg) repeat-x #011B34;
+}
+#bigwrap{margin: 0 auto 40px;padding-bottom: 15px;background:url(../images/container.jpg) repeat-x #012547;}
+#wrapper{border:0px solid black;width:938px;margin:0px auto;background:url(../images/container.jpg) repeat-x #012547;}
+.container{width:825px;margin:0px auto;}
+
+/* LOGO  CSS */
+.topDv{padding:0 0 20px 0;}
+.logo{float:left;border:0px solid red;width:630px;color:#a5a5a5;margin:40px 0 0 0;}
+.logoImg{float:left;}
+.since{font-size:12px;float:left;padding:14px 0 0 22px;}
+.since2{font-size:12px;line-height:23px;}
+
+/* NUMBER CSS */
+.number{float:right;width:147px;text-align:right;font-size:12px;color:#a5a5a5;line-height:15px;margin:53px 0 0 0;}
+
+/* NAVIGATOR CSS */
+.navMenu li{float:left;display:inline;}
+.navMenu li .Ach{color:#dfd485;font-size:12px;line-height:25px;padding:0 13px 0 34px;}
+.navMenu li .Ach:hover{text-decoration:underline;}
+.navMenu li span{font-size:10px;}
+
+/* CONTENTS CSS */
+.contents{border:0px solid red;background:url(../images/contents_bg.gif) repeat-x;height:370px;margin:10px 0 0 0;}
+.stock{float:right;margin:25px 27px 0 0;}
+.welcome{width:350px;float:left;border:0px solid red;margin:10px 32px 10px 32px;line-height:15px;}
+.welcome ul {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wel{color:#dfd485;font-size:18px;font-weight:bold;line-height:30px;}
+.sub {color:#cccccc;font-size:13px;font-weight:bold;line-height:30px;}
+.chapter{
+	width:750px;
+	float:left;
+	line-height:15px;
+	margin-top: 10px;
+	margin-right: 32;
+	margin-bottom: 20;
+	margin-left: 32px;
+}
+.chapter ul {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* HOLDER CSS */
+.holder{width:750px;height:174px;margin:36px 0 0 34px;border-top:1px solid #314b62;}
+.bank{float:right;width:312px;border:0px solid red;line-height:13px;margin-top:47px;}
+.imgDv2{float:left;}
+.BankPara{float:left;width:198px;margin-left:15px;}
+.OurLeg2{color:#dfd485;font-size:12px;font-weight:bold;padding:0 0 9px 0}
+
+/* DEFAULT FROM HTML PEOPLE .legacy{float:left;width:365px;line-height:13px;margin-top:40px;} */
+.legacy{float:left;line-height:13px;margin-top:30px;}
+.imgDv{float:left;}
+.legPara{float:left;width:198px;margin:5px 0 0 18px;}
+.OurLeg{color:#dfd485;font-size:12px;font-weight:bold;line-height:25px;}
+
+/*  FOOTER CSS */
+.footer{margin:0 34px;border-top:1px solid #314B62;}
+.address{float:left;color:#a8a8a8;font-size:12px;text-align:left;margin:14px 0 0 0;line-height:14px;}
+.footRg{float:right;text-align:right;margin-top:36px;}
+a:hover{text-decoration:underline;}
+.Achor{color:#a8a8a8;font-size:12px;padding-left:5px;}
+.fot{color:#545454;font-size:8px;padding-top:12px;}
+
+/* FORM ERROR */
+p.error{margin: 10px 0; padding: 5px;color: #D63301;background-color: #FFCCBA;}
+
+/* DEFAULT P STYLING */
+div.contents p{margin-bottom: 10px;}
+
+/* LEGAL FOOTER */
+#legal { color: #737373; font-size: 10px; margin: 0 auto; text-align: justify; width: 750px; }
+#legal a { color: #737373; text-decoration: underline; }
+
+/* MAP  */
+.map { height:430px; width:500px; display:block; float:left; margin:10px 0 10px 40px; }
+.bldg { height:350px; width:227px; float:left; margin:10px 0 0 15px;}
